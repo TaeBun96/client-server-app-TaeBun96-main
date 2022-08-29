@@ -14,7 +14,7 @@ class Server {
         BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
         
 
-        
+        //changes
         PrintWriter out = new PrintWriter(
             clientSocket.getOutputStream(), true); 
         out.println("connection made");

@@ -3,7 +3,7 @@ import java.io.*;
 
  class Client {
 	public static void main(String[] args) {
-    	
+    	// make changes
 		try{
 			Socket socket = new Socket("localhost", 8080);	
 			BufferedReader in = new BufferedReader(
